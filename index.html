@@ -8,16 +8,16 @@
     <script src="js/controllers.js"></script>
 </head>
 <body>
-    Enter some :  <input type="text" ng-model="name">
-    <h2>Welcome {{name}}</h2>
-
-    <hr/>
-
-    <div ng-controller="MyController">
-      <h1>{{artist.name}}</h1>
-      <p>{{artist.title + ' ' + artist.company}}</p>
-
-    </div>
-
+  <div class="main" ng-controller="MyController">
+    <ul class="artistlist">
+      <li class="artist cf" ng-repeat="item in artists">
+        <img src="images/{{item.shortname}}_tn.jpg" alt="photo of {{item.shortname}}">
+        <div class="info">
+          <h2>{{item.name}}</h2>
+          <h3>{{item.reknown}}</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>
