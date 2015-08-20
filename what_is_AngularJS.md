@@ -10,7 +10,7 @@ What is AngularJS?
 ##MVC Architecture
   * Models (data)
   * View (how ur data or models are displayed)
-* Controllers (written in JavaScript)
+  * Controllers (written in JavaScript)
 
   Directives
   * Begin with ng-
