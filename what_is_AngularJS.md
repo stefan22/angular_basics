@@ -8,9 +8,9 @@ What is AngularJS?
     - Easy data manipulation
 
   MVC Architecture
-    - Models (data)
-    - View (how ur data or models are displayed)
-    - Controllers (written in JavaScript)
+  * Models (data)
+  * View (how ur data or models are displayed)
+  * Controllers (written in JavaScript)
 
   Directives
     * Begin with ng-
