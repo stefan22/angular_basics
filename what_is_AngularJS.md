@@ -1,11 +1,11 @@
-What is AngularJS?
-  - JavaScript Framework
-  - For Creating Single Page Applications
+#What is AngularJS?
+*JavaScript Framework
+*For Creating Single Page Applications
 
-  Advantages:
-    - Excellent templating engine
-    - Handles DOM masterfully
-    - Easy data manipulation
+### Advantages:
+* Excellent templating engine
+* Handles DOM masterfully
+* Easy data manipulation
 
 ##MVC Architecture
   * Models (data)
