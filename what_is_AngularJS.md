@@ -12,7 +12,7 @@ What is AngularJS?
   * View (how ur data or models are displayed)
   * Controllers (written in JavaScript)
 
-  Directives
+##Directives
   * Begin with ng-
   * Data binding (what makes templating possible with placeholders to link to data)
   * Filter (to organize data. Ex direction to sort data ascending/descending order)
