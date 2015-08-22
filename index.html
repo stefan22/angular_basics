@@ -10,10 +10,10 @@
 <body>
   <div class="main" ng-controller="ListController">
     <ul class="artistlist">
-      <li class="artist cf" ng-repeat="item in artists">
+      <li class="artist cf" ng-repeat="item in artists | limitTo: 5">
         <img ng-src="images/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
         <div class="info">
-          <h1>{{item.name}}</h1>
+          <h1>{{item.name | lowercase}}</h1>
           <h3>{{item.reknown}}</h3>
         </div>
       </li>
